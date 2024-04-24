@@ -1,0 +1,292 @@
+table th {
+    background-color: #8b0000;
+    color: #fff;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    border: 2px solid #7a0000;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #dcdcdc;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1), 0 0 0 8px #7a0000;
+    background-color: #f5f5f5;
+}
+
+h2 {
+    font-size: 24px;
+    color: #7a0000;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #f9f9f9;
+}
+
+th {
+    background-color: #8b0000;
+    color: #fff;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    border: 2px solid #7a0000;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    border: 2px solid #7a0000;
+    background-color: #f0f0f0;
+}
+
+.student-table {
+    margin-bottom: 40px;
+}
+
+.course-table {
+    margin-top: 40px;
+}
+
+.course-table h2 {
+    color: #7a0000;
+    margin-bottom: 10px;
+}
+
+.table-container {
+    margin-bottom: 40px;
+    border: 2px solid #7a0000;
+    border-radius: 8px;
+    overflow-x: auto;
+}
+
+.table-container table tr:hover {
+    background-color: #f2f2f2;
+}
+
+.table-container table th:hover,
+.table-container table td:hover {
+    background-color: #ffcccc;
+}
+
+.student-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    background-color: #fef2f2;
+    padding: 20px;
+    border: 2px solid #7a0000;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.student-info * {
+    font-size: 20px;
+    color: #7a0000;
+}
+
+.student-info .left-info,
+.student-info .right-info {
+    width: 45%;
+}
+
+button {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: linear-gradient(to right, #7a0000, #4d0000);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.university-image {
+    margin-right: 10px;
+}
+
+.university-image img {
+    max-width: 100px;
+    height: auto;
+}
+
+.university-title {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: #7a0000;
+    font-size: 36px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.filter-box,
+.search-box {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.filter-box label,
+.filter-box select,
+.search-box label,
+.search-box input[type="text"] {
+    display: inline-block;
+    margin: 0 10px;
+    color: #333;
+    font-size: 16px;
+}
+
+.filter-box select,
+.search-box input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: #f5c2c2; /* Red tone */
+    color: #333;
+    font-size: 16px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+label[for='filter_year'],
+label[for='filter_semester'] {
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333; 
+}
+
+.search-box button {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    background: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.search-box button img {
+    width: 20px;
+    height: 20px;
+}
+
+
+.university-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-left: -68px; 
+}
+
+.university-image {
+    max-width: 100px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.university-title {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #7a0000;
+    font-size: 36px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.program-title {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #7a0000;
+    font-size: 28px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+.underline {
+    text-decoration: underline;
+}
+
+body {
+    overflow: hidden;
+}
+
+
+.course-table {
+    overflow-y: auto; 
+    scrollbar-width: thin; 
+    scrollbar-color: rgba(0, 0, 0, 0.5) rgba(0, 0, 0, 0.1);
+}
+
+
+.course-table::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.1); 
+}
+
+
+.course-table::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.5); 
+}
+
+
+.container {
+    width: 100%; 
+    max-height: 80vh; 
+    padding: 20px; 
+    overflow: auto; 
+    position: relative;
+}
+
+.container::-webkit-scrollbar {
+    width: 8px; 
+}
+
+.container::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+
+.container::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+
+.container::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+
+.container::-webkit-scrollbar-track-piece:start {
+    margin-top: 20px; 
+}
+
+.container::-webkit-scrollbar-track-piece:end {
+    margin-bottom: 20px; 
+}
+
+.container::-webkit-scrollbar-thumb {
+    border-radius: 4px; 
+}
+
